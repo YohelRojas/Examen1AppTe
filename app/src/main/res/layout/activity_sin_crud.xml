@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/sin_etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/sin_etDestName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Destination Name"
+            android:layout_marginTop="8dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/sin_etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/sin_etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:layout_marginTop="8dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/sin_etDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date and Time"
+            android:layout_marginTop="8dp"
+            android:inputType="datetime" />
+
+        <Button
+            android:id="@+id/sin_btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/sin_btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/sin_btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
